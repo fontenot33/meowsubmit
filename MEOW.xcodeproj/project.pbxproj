@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCA1F3FC1C3F15E90045D868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1F3FB1C3F15E90045D868 /* AppDelegate.swift */; };
+		DCA1F3FE1C3F15E90045D868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1F3FD1C3F15E90045D868 /* ViewController.swift */; };
+		DCA1F4011C3F15E90045D868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA1F3FF1C3F15E90045D868 /* Main.storyboard */; };
+		DCA1F4031C3F15E90045D868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA1F4021C3F15E90045D868 /* Assets.xcassets */; };
+		DCA1F4061C3F15E90045D868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA1F4041C3F15E90045D868 /* LaunchScreen.storyboard */; };
+		DCA1F4111C3F15E90045D868 /* MEOWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1F4101C3F15E90045D868 /* MEOWTests.swift */; };
+		DCA1F41C1C3F15E90045D868 /* MEOWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1F41B1C3F15E90045D868 /* MEOWUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCA1F40D1C3F15E90045D868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA1F3F01C3F15E90045D868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA1F3F71C3F15E90045D868;
+			remoteInfo = MEOW;
+		};
+		DCA1F4181C3F15E90045D868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA1F3F01C3F15E90045D868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA1F3F71C3F15E90045D868;
+			remoteInfo = MEOW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCA1F3F81C3F15E90045D868 /* MEOW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEOW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA1F3FB1C3F15E90045D868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCA1F3FD1C3F15E90045D868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCA1F4001C3F15E90045D868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCA1F4021C3F15E90045D868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA1F4051C3F15E90045D868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCA1F4071C3F15E90045D868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA1F40C1C3F15E90045D868 /* MEOWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEOWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA1F4101C3F15E90045D868 /* MEOWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEOWTests.swift; sourceTree = "<group>"; };
+		DCA1F4121C3F15E90045D868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA1F4171C3F15E90045D868 /* MEOWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEOWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA1F41B1C3F15E90045D868 /* MEOWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEOWUITests.swift; sourceTree = "<group>"; };
+		DCA1F41D1C3F15E90045D868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA1F3F51C3F15E90045D868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA1F4091C3F15E90045D868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA1F4141C3F15E90045D868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCA1F3EF1C3F15E90045D868 = {
+			isa = PBXGroup;
+			children = (
+				DCA1F3FA1C3F15E90045D868 /* MEOW */,
+				DCA1F40F1C3F15E90045D868 /* MEOWTests */,
+				DCA1F41A1C3F15E90045D868 /* MEOWUITests */,
+				DCA1F3F91C3F15E90045D868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA1F3F91C3F15E90045D868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA1F3F81C3F15E90045D868 /* MEOW.app */,
+				DCA1F40C1C3F15E90045D868 /* MEOWTests.xctest */,
+				DCA1F4171C3F15E90045D868 /* MEOWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA1F3FA1C3F15E90045D868 /* MEOW */ = {
+			isa = PBXGroup;
+			children = (
+				DCA1F3FB1C3F15E90045D868 /* AppDelegate.swift */,
+				DCA1F3FD1C3F15E90045D868 /* ViewController.swift */,
+				DCA1F3FF1C3F15E90045D868 /* Main.storyboard */,
+				DCA1F4021C3F15E90045D868 /* Assets.xcassets */,
+				DCA1F4041C3F15E90045D868 /* LaunchScreen.storyboard */,
+				DCA1F4071C3F15E90045D868 /* Info.plist */,
+			);
+			path = MEOW;
+			sourceTree = "<group>";
+		};
+		DCA1F40F1C3F15E90045D868 /* MEOWTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA1F4101C3F15E90045D868 /* MEOWTests.swift */,
+				DCA1F4121C3F15E90045D868 /* Info.plist */,
+			);
+			path = MEOWTests;
+			sourceTree = "<group>";
+		};
+		DCA1F41A1C3F15E90045D868 /* MEOWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA1F41B1C3F15E90045D868 /* MEOWUITests.swift */,
+				DCA1F41D1C3F15E90045D868 /* Info.plist */,
+			);
+			path = MEOWUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA1F3F71C3F15E90045D868 /* MEOW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA1F4201C3F15E90045D868 /* Build configuration list for PBXNativeTarget "MEOW" */;
+			buildPhases = (
+				DCA1F3F41C3F15E90045D868 /* Sources */,
+				DCA1F3F51C3F15E90045D868 /* Frameworks */,
+				DCA1F3F61C3F15E90045D868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEOW;
+			productName = MEOW;
+			productReference = DCA1F3F81C3F15E90045D868 /* MEOW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCA1F40B1C3F15E90045D868 /* MEOWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA1F4231C3F15E90045D868 /* Build configuration list for PBXNativeTarget "MEOWTests" */;
+			buildPhases = (
+				DCA1F4081C3F15E90045D868 /* Sources */,
+				DCA1F4091C3F15E90045D868 /* Frameworks */,
+				DCA1F40A1C3F15E90045D868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA1F40E1C3F15E90045D868 /* PBXTargetDependency */,
+			);
+			name = MEOWTests;
+			productName = MEOWTests;
+			productReference = DCA1F40C1C3F15E90045D868 /* MEOWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCA1F4161C3F15E90045D868 /* MEOWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA1F4261C3F15E90045D868 /* Build configuration list for PBXNativeTarget "MEOWUITests" */;
+			buildPhases = (
+				DCA1F4131C3F15E90045D868 /* Sources */,
+				DCA1F4141C3F15E90045D868 /* Frameworks */,
+				DCA1F4151C3F15E90045D868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA1F4191C3F15E90045D868 /* PBXTargetDependency */,
+			);
+			name = MEOWUITests;
+			productName = MEOWUITests;
+			productReference = DCA1F4171C3F15E90045D868 /* MEOWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA1F3F01C3F15E90045D868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Fontebot;
+				TargetAttributes = {
+					DCA1F3F71C3F15E90045D868 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DCA1F40B1C3F15E90045D868 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DCA1F3F71C3F15E90045D868;
+					};
+					DCA1F4161C3F15E90045D868 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DCA1F3F71C3F15E90045D868;
+					};
+				};
+			};
+			buildConfigurationList = DCA1F3F31C3F15E90045D868 /* Build configuration list for PBXProject "MEOW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCA1F3EF1C3F15E90045D868;
+			productRefGroup = DCA1F3F91C3F15E90045D868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA1F3F71C3F15E90045D868 /* MEOW */,
+				DCA1F40B1C3F15E90045D868 /* MEOWTests */,
+				DCA1F4161C3F15E90045D868 /* MEOWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA1F3F61C3F15E90045D868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA1F4061C3F15E90045D868 /* LaunchScreen.storyboard in Resources */,
+				DCA1F4031C3F15E90045D868 /* Assets.xcassets in Resources */,
+				DCA1F4011C3F15E90045D868 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA1F40A1C3F15E90045D868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA1F4151C3F15E90045D868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA1F3F41C3F15E90045D868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA1F3FE1C3F15E90045D868 /* ViewController.swift in Sources */,
+				DCA1F3FC1C3F15E90045D868 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA1F4081C3F15E90045D868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA1F4111C3F15E90045D868 /* MEOWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA1F4131C3F15E90045D868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA1F41C1C3F15E90045D868 /* MEOWUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCA1F40E1C3F15E90045D868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA1F3F71C3F15E90045D868 /* MEOW */;
+			targetProxy = DCA1F40D1C3F15E90045D868 /* PBXContainerItemProxy */;
+		};
+		DCA1F4191C3F15E90045D868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA1F3F71C3F15E90045D868 /* MEOW */;
+			targetProxy = DCA1F4181C3F15E90045D868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCA1F3FF1C3F15E90045D868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA1F4001C3F15E90045D868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCA1F4041C3F15E90045D868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA1F4051C3F15E90045D868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA1F41E1C3F15E90045D868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCA1F41F1C3F15E90045D868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA1F4211C3F15E90045D868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MEOW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontebot.MEOW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCA1F4221C3F15E90045D868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MEOW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontebot.MEOW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCA1F4241C3F15E90045D868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MEOWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontebot.MEOWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEOW.app/MEOW";
+			};
+			name = Debug;
+		};
+		DCA1F4251C3F15E90045D868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MEOWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontebot.MEOWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEOW.app/MEOW";
+			};
+			name = Release;
+		};
+		DCA1F4271C3F15E90045D868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MEOWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontebot.MEOWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MEOW;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCA1F4281C3F15E90045D868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MEOWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontebot.MEOWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MEOW;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA1F3F31C3F15E90045D868 /* Build configuration list for PBXProject "MEOW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA1F41E1C3F15E90045D868 /* Debug */,
+				DCA1F41F1C3F15E90045D868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA1F4201C3F15E90045D868 /* Build configuration list for PBXNativeTarget "MEOW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA1F4211C3F15E90045D868 /* Debug */,
+				DCA1F4221C3F15E90045D868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCA1F4231C3F15E90045D868 /* Build configuration list for PBXNativeTarget "MEOWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA1F4241C3F15E90045D868 /* Debug */,
+				DCA1F4251C3F15E90045D868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCA1F4261C3F15E90045D868 /* Build configuration list for PBXNativeTarget "MEOWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA1F4271C3F15E90045D868 /* Debug */,
+				DCA1F4281C3F15E90045D868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA1F3F01C3F15E90045D868 /* Project object */;
+}
