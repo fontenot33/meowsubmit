@@ -9,9 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let colorStruct = ColorWheel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var touch = UITapGestureRecognizer(target:self, action:"changeColor:")
+        self.view.addGestureRecognizer(touch)
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +27,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+     func changeColor(sender: UIButton) {
+        self.view.backgroundColor = colorStruct.randomColor()
+        
+    }
 
 }
 
