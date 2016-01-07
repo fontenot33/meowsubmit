@@ -10,27 +10,36 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var textLabel: UILabel!
+    let questionsStruct = Questions()
     let colorStruct = ColorWheel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var touch = UITapGestureRecognizer(target:self, action:"changeColor:")
+        changeText()
+        self.view.backgroundColor = colorStruct.randomColor()
+        
+        let touch = UITapGestureRecognizer(target:self, action:"tapView:")
         self.view.addGestureRecognizer(touch)
-        
-        
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+    
+    func tapView(sender: UIButton) {
+        changeColor(sender)
+        changeText()
     }
 
-     func changeColor(sender: UIButton) {
+    func changeText() {
+        textLabel.numberOfLines = 0
+        textLabel.text = questionsStruct.questions()
+    }
+    
+    func changeColor(sender: UIButton) {
         self.view.backgroundColor = colorStruct.randomColor()
-        
     }
-
 }
 
